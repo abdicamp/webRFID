@@ -828,21 +828,7 @@ class _NfcState extends State<Nfc> with SingleTickerProviderStateMixin {
                                                   ),
                                                 ],
                                               )),
-                                              Padding(
-                                                padding:
-                                                    const EdgeInsets.all(8.0),
-                                                child: Container(
-                                                  width: 100,
-                                                  child: ElevatedButton(
-                                                      onPressed: () async {
-                                                        setState(() {
-                                                          print("delete");
-                                                          vm.deleteTableInvoice();
-                                                        });
-                                                      },
-                                                      child: Text("Reset")),
-                                                ),
-                                              ),
+                                             
                                             ],
                                           ),
                                         ),
