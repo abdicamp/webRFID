@@ -144,7 +144,7 @@ class _NfcState extends State<Nfc> with SingleTickerProviderStateMixin {
                                     borderRadius: BorderRadius.circular(
                                       10.0,
                                     ),
-                                    color: Color.fromRGBO(143, 197, 175, 1),
+                                    color: Color.black,
                                   ),
                                   controller: tabController,
                                   unselectedLabelColor: Colors.black,
