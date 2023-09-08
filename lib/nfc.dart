@@ -824,7 +824,11 @@ class _NfcState extends State<Nfc> with SingleTickerProviderStateMixin {
                                                           ],
                                                         ),
                                                       ),
-                                                       Padding(
+                                                    ],
+                                                  ),
+                                                ],
+                                              )),
+                                              Padding(
                                                 padding:
                                                     const EdgeInsets.all(8.0),
                                                 child: Container(
@@ -839,11 +843,6 @@ class _NfcState extends State<Nfc> with SingleTickerProviderStateMixin {
                                                       child: Text("Reset")),
                                                 ),
                                               ),
-                                                    ],
-                                                  ),
-                                                ],
-                                              )),
-                                             
                                             ],
                                           ),
                                         ),
